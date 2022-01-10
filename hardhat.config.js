@@ -43,7 +43,7 @@ task("rSend", "Send 0.01ETH to contract from Signer on Rinkeby")
 });
 
 //таск для вывода всех денежных средств контракта на адрес создателя контракта в сети Rinkeby
-//npx hardhat rBalance --address <contract address> --network rinkeby  
+//npx hardhat rWithdraw --address <contract address> --network rinkeby  
 task("rWithdraw", "Withdraw all money to Signer on Rinkeby")
   .addParam("address", "The contract address on Rinkeby")
   .setAction(async (taskArgs) => {
