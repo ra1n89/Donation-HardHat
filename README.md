@@ -1,7 +1,5 @@
 # Donation-HardHat
 
-Контракт в сети Rinkeby: https://rinkeby.etherscan.io/address/0x274CD66e4e08a4F0D826aF4C28433113A59AcBbc
-
 Простой контракт, способный принимать пожертвования в нативной валюте сети блокчейна ETH, BNB, Matic и т.д.
 
 Функции контракта Donation.sol:
@@ -22,3 +20,5 @@
 - task для проверки баланса контракта в сети Rinkeby (npx hardhat rBalance --address <contract address> --network rinkeby);
 - task для отправки 0.01ETH на контракт в сети Rinkeby (npx hardhat rSend --address <contract address> --network rinkeby); 
 - task для вывода всех денежных средств контракта на адрес создателя контракта в сети Rinkeby (npx hardhat rBalance --address <contract address> --network rinkeby);  
+
+Контракт в сети Rinkeby: https://rinkeby.etherscan.io/address/0x274CD66e4e08a4F0D826aF4C28433113A59AcBbc
