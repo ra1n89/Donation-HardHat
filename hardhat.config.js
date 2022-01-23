@@ -3,13 +3,13 @@ require("@nomiclabs/hardhat-web3");
 
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
-const ALCHEMY_API_KEY = "F39zFhUn0PIImYMqhMjJ3-vG7WL8g6Mc";
+const ALCHEMY_API_KEY = "";
 
 // Replace this private key with your Ropsten account private key
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
-const RINKEBY_PRIVATE_KEY = "bd6a14b802b4bbd5f43195d5741086dde247ed890c08f4181b323d7be7c2f0c6"; //test account
+const RINKEBY_PRIVATE_KEY = ""; //test account
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
@@ -68,9 +68,3 @@ module.exports = {
     }
   }
 };
-
-
-
-
-//bd6a14b802b4bbd5f43195d5741086dde247ed890c08f4181b323d7be7c2f0c6
-//https://eth-rinkeby.alchemyapi.io/v2/F39zFhUn0PIImYMqhMjJ3-vG7WL8g6Mc
